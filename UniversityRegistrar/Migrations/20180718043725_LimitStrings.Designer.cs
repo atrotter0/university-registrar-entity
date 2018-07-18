@@ -8,9 +8,10 @@ using UniversityRegistrar;
 namespace UniversityRegistrar.Migrations
 {
     [DbContext(typeof(UniversityRegistrar))]
-    partial class UniversityRegistrarModelSnapshot : ModelSnapshot
+    [Migration("20180718043725_LimitStrings")]
+    partial class LimitStrings
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.1.1");

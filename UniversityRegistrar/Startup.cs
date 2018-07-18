@@ -6,12 +6,6 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace UniversityRegistrar
 {
-    // update DbNameHere with correct db name
-    public static class DBConfiguration
-    {
-        public static string ConnectionString = "server=localhost;user id=root;password=root;port=8889;database=DbNameHere;";
-    }
-
     public class Startup
     {
         public Startup(IHostingEnvironment env)

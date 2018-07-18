@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using UniversityRegistrar.Models;
+using UniversityRegistrar;
 
 namespace UniversityRegistrar.Controllers
 {

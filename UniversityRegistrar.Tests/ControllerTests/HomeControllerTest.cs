@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using UniversityRegistrar.Controllers;
-using UniversityRegistrar.Models;
+using UniversityRegistrar;
 
 namespace UniversityRegistrar.Tests
 {
